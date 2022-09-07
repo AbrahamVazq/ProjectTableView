@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C3956A728C9604D000F5266 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3956A628C9604D000F5266 /* Datos.swift */; };
 		2CE8583228C95072002DFFA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8583128C95072002DFFA5 /* AppDelegate.swift */; };
 		2CE8583428C95072002DFFA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8583328C95072002DFFA5 /* SceneDelegate.swift */; };
 		2CE8583628C95072002DFFA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8583528C95072002DFFA5 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C3956A628C9604D000F5266 /* Datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 		2CE8582E28C95072002DFFA5 /* ProjectTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE8583128C95072002DFFA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CE8583328C95072002DFFA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		2CE8584728C95410002DFFA5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2C3956A628C9604D000F5266 /* Datos.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C3956A728C9604D000F5266 /* Datos.swift in Sources */,
 				2CE8583628C95072002DFFA5 /* ViewController.swift in Sources */,
 				2CE8584C28C954B7002DFFA5 /* CellFoodTableViewCell.swift in Sources */,
 				2CE8583228C95072002DFFA5 /* AppDelegate.swift in Sources */,
