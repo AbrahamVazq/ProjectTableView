@@ -8,5 +8,6 @@
 import Foundation
 
 class Usuario {
-    
+    var strUsuario: String?
+    var strPass: String?
 }
