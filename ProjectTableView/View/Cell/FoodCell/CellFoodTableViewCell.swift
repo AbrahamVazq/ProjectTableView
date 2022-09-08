@@ -24,6 +24,8 @@ class CellFoodTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        print("Este es mi super cambio")
+        print("Y es te es otro cambiazo")
         // Initialization code
     }
 
