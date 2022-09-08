@@ -8,6 +8,7 @@
 import Foundation
 
 struct Datos {
-    
-    
+    var datos1: String = ""
+    var datos2: String = ""
+    var datos3: String = ""
 }
