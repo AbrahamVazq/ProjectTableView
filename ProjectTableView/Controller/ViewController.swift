@@ -24,6 +24,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("ESTE CAMIBO LO HIZO MOY")
+        
+    }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        print("AÑADI UNA FUNCION DEL Ciclo de vida.")
+        
     }
 
 
