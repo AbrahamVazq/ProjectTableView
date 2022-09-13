@@ -60,6 +60,12 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgMusic" destination="uuH-HN-0gv" id="0fP-Tu-Bfl"/>
+                <outlet property="lblAlbum" destination="KI6-2X-gAG" id="sFd-wa-QYR"/>
+                <outlet property="lblArtista" destination="TZc-ky-SZn" id="mdY-Lf-EeG"/>
+                <outlet property="lblCancion" destination="tUb-7M-iYH" id="dC3-Cp-bKR"/>
+            </connections>
             <point key="canvasLocation" x="131.8840579710145" y="66.294642857142861"/>
         </tableViewCell>
     </objects>
