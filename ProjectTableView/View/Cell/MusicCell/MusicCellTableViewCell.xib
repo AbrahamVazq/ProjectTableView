@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="music_cell" rowHeight="100" id="KGk-i7-Jjw" customClass="MusicCellTableViewCell" customModule="ProjectTableView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uuH-HN-0gv">
+                        <rect key="frame" x="5" y="5" width="80" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="mMk-ja-uuJ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Artista" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZc-ky-SZn">
+                        <rect key="frame" x="100" y="5" width="210" height="23"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Album" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KI6-2X-gAG">
+                        <rect key="frame" x="100" y="33" width="210" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Cancion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUb-7M-iYH">
+                        <rect key="frame" x="100" y="66" width="194" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KI6-2X-gAG" firstAttribute="top" secondItem="TZc-ky-SZn" secondAttribute="bottom" constant="5" id="EVE-Hx-lQI"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="tUb-7M-iYH" secondAttribute="bottom" constant="5" id="FkR-c2-Ffv"/>
+                    <constraint firstItem="tUb-7M-iYH" firstAttribute="leading" secondItem="uuH-HN-0gv" secondAttribute="trailing" constant="15" id="KtJ-aO-PfT"/>
+                    <constraint firstItem="uuH-HN-0gv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="N2d-1u-QQh"/>
+                    <constraint firstItem="TZc-ky-SZn" firstAttribute="leading" secondItem="uuH-HN-0gv" secondAttribute="trailing" constant="15" id="ReM-un-Iy0"/>
+                    <constraint firstItem="tUb-7M-iYH" firstAttribute="top" secondItem="KI6-2X-gAG" secondAttribute="bottom" constant="5" id="Ulu-Ph-zQ2"/>
+                    <constraint firstAttribute="trailing" secondItem="KI6-2X-gAG" secondAttribute="trailing" constant="10" id="VqY-eE-g71"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="tUb-7M-iYH" secondAttribute="trailing" constant="10" id="XoU-6R-fY7"/>
+                    <constraint firstAttribute="bottom" secondItem="uuH-HN-0gv" secondAttribute="bottom" constant="5" id="dAF-nN-Jti"/>
+                    <constraint firstItem="KI6-2X-gAG" firstAttribute="top" secondItem="TZc-ky-SZn" secondAttribute="bottom" constant="5" id="dCQ-p4-jQY"/>
+                    <constraint firstItem="uuH-HN-0gv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="mN8-yf-BSZ"/>
+                    <constraint firstAttribute="trailing" secondItem="TZc-ky-SZn" secondAttribute="trailing" constant="10" id="q3I-tk-shD"/>
+                    <constraint firstItem="KI6-2X-gAG" firstAttribute="leading" secondItem="uuH-HN-0gv" secondAttribute="trailing" constant="15" id="sp4-Fl-Io2"/>
+                    <constraint firstItem="TZc-ky-SZn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="vJy-xE-N7U"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="131.8840579710145" y="66.294642857142861"/>
+        </tableViewCell>
+    </objects>
+</document>
