@@ -14,9 +14,7 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var vwImage: UIImageView!{
-        didSet{
-            self.vwImage.layer.cornerRadius = 50
-        }
+        didSet{ self.vwImage.layer.cornerRadius = 50 }
     }
     
     @IBOutlet weak var lblUser: UITextField!{
@@ -27,16 +25,11 @@ class ViewController: UIViewController {
         didSet{ self.lblPsswrd.delegate = self }
     }
     
-    
-    
     //MARK: - D A T O S
     let arrUsers: [String] = ["Luis_28", "AnaPata", "GisSemjase", "BioMoi"]
     let arrPassW: [String] = ["neilgaiman300","nidodepatas","fall30", "placebomusic"]
-    
     var MyUser: String = ""
     var MyPass: String = ""
-    
-    
     
     //MARK: - L I F E · C Y C L E
     override func viewDidLoad() {

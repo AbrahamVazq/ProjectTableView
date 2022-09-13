@@ -1,9 +1,6 @@
-//
 //  Datos.swift
 //  ProjectTableView
-//
 //  Created by Moisés Abraham Vázquez Pérez on 07/09/22.
-//
 
 import Foundation
 
@@ -12,6 +9,7 @@ struct Datos {
     var datos2: String = ""
     var datos3: String = ""
 }
+
 class Food {
     let arrFoodNames: [String] = ["EnsaladaConHongos","PechugaJardinera","Camarones","Sushi","PolloFrito","Salmon","Arrachera","PechugaYEnsalada","SushiSalmon","Albondigas"]
 
