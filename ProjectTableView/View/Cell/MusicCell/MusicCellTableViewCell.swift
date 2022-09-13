@@ -8,7 +8,16 @@
 import UIKit
 
 class MusicCellTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var imgMusic: UIImageView!
+    
+    @IBOutlet weak var lblArtista: UILabel!
+    
+    @IBOutlet weak var lblAlbum: UILabel!
+    
+    
+    @IBOutlet weak var lblCancion: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

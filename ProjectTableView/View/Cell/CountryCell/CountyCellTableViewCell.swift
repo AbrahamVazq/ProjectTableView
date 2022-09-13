@@ -9,6 +9,10 @@ import UIKit
 
 class CountyCellTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var imgCountry: UIImageView!
+    
+    @IBOutlet weak var lblPais: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
