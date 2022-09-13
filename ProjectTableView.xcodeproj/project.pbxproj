@@ -17,6 +17,10 @@
 		2CE8583E28C95079002DFFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE8583C28C95079002DFFA5 /* LaunchScreen.storyboard */; };
 		2CE8584C28C954B7002DFFA5 /* CellFoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8584A28C954B7002DFFA5 /* CellFoodTableViewCell.swift */; };
 		2CE8584D28C954B7002DFFA5 /* CellFoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE8584B28C954B7002DFFA5 /* CellFoodTableViewCell.xib */; };
+		528DCA3928CFFEFF00031006 /* MusicCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528DCA3728CFFEFF00031006 /* MusicCellTableViewCell.swift */; };
+		528DCA3A28CFFEFF00031006 /* MusicCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528DCA3828CFFEFF00031006 /* MusicCellTableViewCell.xib */; };
+		528DCA3F28D0075D00031006 /* CountyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528DCA3D28D0075D00031006 /* CountyCellTableViewCell.swift */; };
+		528DCA4028D0075D00031006 /* CountyCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528DCA3E28D0075D00031006 /* CountyCellTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		2CE8583F28C95079002DFFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CE8584A28C954B7002DFFA5 /* CellFoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFoodTableViewCell.swift; sourceTree = "<group>"; };
 		2CE8584B28C954B7002DFFA5 /* CellFoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellFoodTableViewCell.xib; sourceTree = "<group>"; };
+		528DCA3728CFFEFF00031006 /* MusicCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCellTableViewCell.swift; sourceTree = "<group>"; };
+		528DCA3828CFFEFF00031006 /* MusicCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicCellTableViewCell.xib; sourceTree = "<group>"; };
+		528DCA3D28D0075D00031006 /* CountyCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyCellTableViewCell.swift; sourceTree = "<group>"; };
+		528DCA3E28D0075D00031006 /* CountyCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountyCellTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,8 @@
 		2CE8584828C95455002DFFA5 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				528DCA3B28D0071F00031006 /* CountryCell */,
+				528DCA3628CFFEBD00031006 /* MusicCell */,
 				2CE8584928C9547D002DFFA5 /* FoodCell */,
 			);
 			path = Cell;
@@ -133,6 +143,24 @@
 				2CE8584B28C954B7002DFFA5 /* CellFoodTableViewCell.xib */,
 			);
 			path = FoodCell;
+			sourceTree = "<group>";
+		};
+		528DCA3628CFFEBD00031006 /* MusicCell */ = {
+			isa = PBXGroup;
+			children = (
+				528DCA3728CFFEFF00031006 /* MusicCellTableViewCell.swift */,
+				528DCA3828CFFEFF00031006 /* MusicCellTableViewCell.xib */,
+			);
+			path = MusicCell;
+			sourceTree = "<group>";
+		};
+		528DCA3B28D0071F00031006 /* CountryCell */ = {
+			isa = PBXGroup;
+			children = (
+				528DCA3D28D0075D00031006 /* CountyCellTableViewCell.swift */,
+				528DCA3E28D0075D00031006 /* CountyCellTableViewCell.xib */,
+			);
+			path = CountryCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE8583E28C95079002DFFA5 /* LaunchScreen.storyboard in Resources */,
+				528DCA4028D0075D00031006 /* CountyCellTableViewCell.xib in Resources */,
+				528DCA3A28CFFEFF00031006 /* MusicCellTableViewCell.xib in Resources */,
 				2CE8584D28C954B7002DFFA5 /* CellFoodTableViewCell.xib in Resources */,
 				2CE8583B28C95079002DFFA5 /* Assets.xcassets in Resources */,
 				2CE8583928C95072002DFFA5 /* Main.storyboard in Resources */,
@@ -211,6 +241,8 @@
 				2CE8583628C95072002DFFA5 /* ViewController.swift in Sources */,
 				2C3956AB28C9608A000F5266 /* Usuario.swift in Sources */,
 				2CE8584C28C954B7002DFFA5 /* CellFoodTableViewCell.swift in Sources */,
+				528DCA3928CFFEFF00031006 /* MusicCellTableViewCell.swift in Sources */,
+				528DCA3F28D0075D00031006 /* CountyCellTableViewCell.swift in Sources */,
 				2CE8583228C95072002DFFA5 /* AppDelegate.swift in Sources */,
 				2CE8583428C95072002DFFA5 /* SceneDelegate.swift in Sources */,
 			);
