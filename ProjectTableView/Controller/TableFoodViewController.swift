@@ -7,7 +7,7 @@
 
 import UIKit
 
-class tableFoodViewController: UIViewController {
+class TableFoodViewController: UIViewController {
     
     @IBOutlet weak var FoodTable: UITableView!
     
@@ -35,7 +35,7 @@ class tableFoodViewController: UIViewController {
 }
 
 
-extension tableFoodViewController: UITableViewDelegate & UITableViewDataSource{
+extension TableFoodViewController: UITableViewDelegate & UITableViewDataSource{
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return arrFoodName.count

@@ -113,7 +113,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="VOi-dQ-Lpj"/>
                     <connections>
-                        <outlet property="FoodTabel" destination="jfk-23-rUX" id="qTi-JQ-pg3"/>
+                        <outlet property="FoodTable" destination="jfk-23-rUX" id="BhW-vX-GBY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZEY-Hi-WO5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
