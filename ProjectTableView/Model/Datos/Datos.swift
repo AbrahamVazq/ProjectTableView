@@ -27,3 +27,9 @@ class Music {
 
     let arrSongs: [String] = ["Como una Novela","Blinding Lights","One More Time","Gosht Stuff","This Fire","Enemies","Stylo","Instant Crush","Reptillia","Walking on a Dream","","","",""]
 }
+
+class Electrodomesticos {
+    let arrElectrodomesticos:[String] = [ "Cafetera","Batidora","Tostador","Extractor de jugos","Licuadora","Procesador de alimentos","Freidora de aire","Microondas","Sandwichera","Wafflera"]
+    
+    let arrPrecioElectrodomesticos:[Int] = [1000,800,590,1650,1200,3500,4500,5600,1200,1500]
+}
