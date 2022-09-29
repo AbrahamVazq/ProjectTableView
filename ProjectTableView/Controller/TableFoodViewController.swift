@@ -12,7 +12,7 @@ class TableFoodViewController: UIViewController {
     
     let arrDescrFood: [String] = ["Muy Fresca","Se sirve con pan","Pidelos a la diabla","Solo o empanizado","Pidelo con papas tambien","Directamente desde Japón","De la res mas brava","Se vale repetir","Este es un clasico","Pidelas con salsa bolognesa"]
     
-    let arrFoodPrice: [String] = ["$ 350 ","$ 250","$ 150","$ 180","$ 200","$ 200","$ 350","$ 320","$ 290","$ 240"]
+    let arrFoodPrice: [String] = ["$ 350 ","$ 250","$ 150","$ 180","$ 200","$ 200","$ 350","$ 320","$ 290","$ 250"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
