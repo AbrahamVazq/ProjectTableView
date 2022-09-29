@@ -1,13 +1,13 @@
 //
-//  DetailViewController.swift
+//  ElectronicsViewController.swift
 //  ProjectTableView
 //
-//  Created by Abraham Vazquez on 12/09/22.
+//  Created by LUIS GONZALEZ on 28/09/22.
 //
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class ElectronicsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,5 +27,3 @@ class DetailViewController: UIViewController {
     */
 
 }
-
-
