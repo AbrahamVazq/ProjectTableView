@@ -24,6 +24,8 @@
 		528DCA4028D0075D00031006 /* CountyCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528DCA3E28D0075D00031006 /* CountyCellTableViewCell.xib */; };
 		A4B5FC5428D033BC0002B41D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B5FC5228D033BC0002B41D /* DetailViewController.swift */; };
 		A4B5FC5528D033BC0002B41D /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B5FC5328D033BC0002B41D /* DetailViewController.xib */; };
+		AAC54B9528E53E19009F2948 /* ElectronicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC54B9328E53E19009F2948 /* ElectronicsViewController.swift */; };
+		AAC54B9628E53E19009F2948 /* ElectronicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC54B9428E53E19009F2948 /* ElectronicsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		528DCA3E28D0075D00031006 /* CountyCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountyCellTableViewCell.xib; sourceTree = "<group>"; };
 		A4B5FC5228D033BC0002B41D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A4B5FC5328D033BC0002B41D /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		AAC54B9328E53E19009F2948 /* ElectronicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsViewController.swift; sourceTree = "<group>"; };
+		AAC54B9428E53E19009F2948 /* ElectronicsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ElectronicsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 		2CE8584628C9540A002DFFA5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AAC54B9228E53DE0009F2948 /* Electronics */,
 				A4B5FC5128D0339A0002B41D /* Detail */,
 				2CE8583528C95072002DFFA5 /* ViewController.swift */,
 				04A427AF28CFFF3100C55DE0 /* TableFoodViewController.swift */,
@@ -180,6 +185,15 @@
 			path = Detail;
 			sourceTree = "<group>";
 		};
+		AAC54B9228E53DE0009F2948 /* Electronics */ = {
+			isa = PBXGroup;
+			children = (
+				AAC54B9328E53E19009F2948 /* ElectronicsViewController.swift */,
+				AAC54B9428E53E19009F2948 /* ElectronicsViewController.xib */,
+			);
+			path = Electronics;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC54B9628E53E19009F2948 /* ElectronicsViewController.xib in Resources */,
 				2CE8583E28C95079002DFFA5 /* LaunchScreen.storyboard in Resources */,
 				528DCA4028D0075D00031006 /* CountyCellTableViewCell.xib in Resources */,
 				A4B5FC5528D033BC0002B41D /* DetailViewController.xib in Resources */,
@@ -261,6 +276,7 @@
 				2C3956AB28C9608A000F5266 /* Usuario.swift in Sources */,
 				2CE8584C28C954B7002DFFA5 /* CellFoodTableViewCell.swift in Sources */,
 				528DCA3928CFFEFF00031006 /* MusicCellTableViewCell.swift in Sources */,
+				AAC54B9528E53E19009F2948 /* ElectronicsViewController.swift in Sources */,
 				528DCA3F28D0075D00031006 /* CountyCellTableViewCell.swift in Sources */,
 				A4B5FC5428D033BC0002B41D /* DetailViewController.swift in Sources */,
 				2CE8583228C95072002DFFA5 /* AppDelegate.swift in Sources */,
