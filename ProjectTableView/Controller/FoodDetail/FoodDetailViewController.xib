@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,6 +11,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FoodDetailViewController" customModule="ProjectTableView" customModuleProvider="target">
             <connections>
+                <outlet property="imgImagenFood" destination="qZt-zB-SeN" id="ePd-2n-0K6"/>
+                <outlet property="lblDescripcion" destination="iNL-yQ-4RC" id="j0M-aj-qyi"/>
+                <outlet property="lblPrecio" destination="Zs6-bA-HEA" id="JPd-fF-4Cl"/>
+                <outlet property="lblRank" destination="fHa-aO-HI5" id="T0A-pa-1sm"/>
+                <outlet property="lblTitulo" destination="yWA-DG-fzJ" id="rWN-ok-t0y"/>
+                <outlet property="tblExtras" destination="j4u-It-Ime" id="gQs-u4-scn"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,13 +26,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qZt-zB-SeN">
-                    <rect key="frame" x="0.0" y="47" width="390" height="200"/>
+                    <rect key="frame" x="0.0" y="44" width="390" height="200"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="200" id="ZZe-xW-6Px"/>
                     </constraints>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7W0-ha-9cJ">
-                    <rect key="frame" x="339" y="63" width="35" height="35"/>
+                    <rect key="frame" x="339" y="60" width="35" height="35"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="35" id="c6A-hz-JAF"/>
                         <constraint firstAttribute="height" constant="35" id="xUU-sF-wyF"/>
@@ -35,25 +41,25 @@
                     <state key="normal" image="hand.thumbsup" catalog="system"/>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(TITULO)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWA-DG-fzJ">
-                    <rect key="frame" x="16" y="254.99999999999997" width="358" height="28.666666666666657"/>
+                    <rect key="frame" x="16" y="251.99999999999997" width="358" height="28.666666666666657"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(DESCRIPCION)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNL-yQ-4RC">
-                    <rect key="frame" x="16" y="291.66666666666669" width="358" height="24"/>
+                    <rect key="frame" x="16" y="288.66666666666669" width="358" height="24"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="($0.00)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zs6-bA-HEA">
-                    <rect key="frame" x="16" y="323.66666666666669" width="358" height="23"/>
+                    <rect key="frame" x="16" y="320.66666666666669" width="358" height="23"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aap-pk-ptm">
-                    <rect key="frame" x="16.000000000000007" y="354.66666666666669" width="107.66666666666669" height="24"/>
+                    <rect key="frame" x="16.000000000000007" y="351.66666666666669" width="107.66666666666669" height="24"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="eJb-xX-xeU">
                             <rect key="frame" x="0.0" y="-0.33333333333333215" width="24" height="23.666666666666664"/>
@@ -75,7 +81,7 @@
                     </constraints>
                 </stackView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="j4u-It-Ime">
-                    <rect key="frame" x="16" y="390.66666666666674" width="358" height="395.33333333333326"/>
+                    <rect key="frame" x="16" y="387.66666666666674" width="358" height="398.33333333333326"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
             </subviews>
@@ -107,7 +113,7 @@
         </view>
     </objects>
     <resources>
-        <image name="hand.thumbsup" catalog="system" width="123" height="128"/>
+        <image name="hand.thumbsup" catalog="system" width="128" height="128"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
