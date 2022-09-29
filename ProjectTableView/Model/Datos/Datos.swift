@@ -39,5 +39,7 @@ class Extras {
     let arrExtras:[String] = ["Hummus","Pesto", "Aguacate", "Mayonesa", "Ranch"]
     
     let arrDescripcion:[String] = ["Mezcla de garbanzos cocidos con, tahina, ajo y zumo de limòn","Mezcla de aceite, zumo de limón y hojas de Albahaca", "Una pieza de aguacate", "Mayonesa de la casa", "Aderezo con mayonesa, crema y finas hierbas"]
+    let arrPrecio:[String] = ["$27.00","$30.00", "$20.00", "$32.00", "$28.00"]
     
+    let arrRank:[String] = ["4.7","3.0", "4.0", "4.7", "5.0"]
 }
