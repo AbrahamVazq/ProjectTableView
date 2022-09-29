@@ -39,4 +39,8 @@ extension TableFoodViewController: UITableViewDelegate & UITableViewDataSource{
         cellFood.lblPrice.text = arrFoodPrice[indexPath.row]
         return cellFood
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.navigationController?.pushViewController(FoodDetailViewController(), animated: true)
+    }
 }
