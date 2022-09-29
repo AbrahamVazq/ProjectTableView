@@ -26,6 +26,8 @@
 		A4ABC3A628E5373B00F87C43 /* FoodDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4ABC3A428E5373B00F87C43 /* FoodDetailViewController.xib */; };
 		A4B5FC5428D033BC0002B41D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B5FC5228D033BC0002B41D /* DetailViewController.swift */; };
 		A4B5FC5528D033BC0002B41D /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B5FC5328D033BC0002B41D /* DetailViewController.xib */; };
+		A4BED2B428E53E03006A0987 /* FoodExtraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BED2B228E53E03006A0987 /* FoodExtraTableViewCell.swift */; };
+		A4BED2B528E53E03006A0987 /* FoodExtraTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BED2B328E53E03006A0987 /* FoodExtraTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		A4ABC3A428E5373B00F87C43 /* FoodDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodDetailViewController.xib; sourceTree = "<group>"; };
 		A4B5FC5228D033BC0002B41D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A4B5FC5328D033BC0002B41D /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		A4BED2B228E53E03006A0987 /* FoodExtraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodExtraTableViewCell.swift; sourceTree = "<group>"; };
+		A4BED2B328E53E03006A0987 /* FoodExtraTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodExtraTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,7 @@
 		2CE8584828C95455002DFFA5 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				A4BED2B128E53DCD006A0987 /* FoodExtrasCell */,
 				528DCA3B28D0071F00031006 /* CountryCell */,
 				528DCA3628CFFEBD00031006 /* MusicCell */,
 				2CE8584928C9547D002DFFA5 /* FoodCell */,
@@ -192,6 +197,15 @@
 				A4B5FC5328D033BC0002B41D /* DetailViewController.xib */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		A4BED2B128E53DCD006A0987 /* FoodExtrasCell */ = {
+			isa = PBXGroup;
+			children = (
+				A4BED2B228E53E03006A0987 /* FoodExtraTableViewCell.swift */,
+				A4BED2B328E53E03006A0987 /* FoodExtraTableViewCell.xib */,
+			);
+			path = FoodExtrasCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +269,7 @@
 				2CE8583E28C95079002DFFA5 /* LaunchScreen.storyboard in Resources */,
 				528DCA4028D0075D00031006 /* CountyCellTableViewCell.xib in Resources */,
 				A4B5FC5528D033BC0002B41D /* DetailViewController.xib in Resources */,
+				A4BED2B528E53E03006A0987 /* FoodExtraTableViewCell.xib in Resources */,
 				528DCA3A28CFFEFF00031006 /* MusicCellTableViewCell.xib in Resources */,
 				2CE8584D28C954B7002DFFA5 /* CellFoodTableViewCell.xib in Resources */,
 				2CE8583B28C95079002DFFA5 /* Assets.xcassets in Resources */,
@@ -272,6 +287,7 @@
 			files = (
 				2C3956A728C9604D000F5266 /* Datos.swift in Sources */,
 				04A427B028CFFF3100C55DE0 /* TableFoodViewController.swift in Sources */,
+				A4BED2B428E53E03006A0987 /* FoodExtraTableViewCell.swift in Sources */,
 				A4ABC3A528E5373B00F87C43 /* FoodDetailViewController.swift in Sources */,
 				2CE8583628C95072002DFFA5 /* ViewController.swift in Sources */,
 				2C3956AB28C9608A000F5266 /* Usuario.swift in Sources */,
