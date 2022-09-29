@@ -18,6 +18,8 @@
 		2CE8583E28C95079002DFFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE8583C28C95079002DFFA5 /* LaunchScreen.storyboard */; };
 		2CE8584C28C954B7002DFFA5 /* CellFoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8584A28C954B7002DFFA5 /* CellFoodTableViewCell.swift */; };
 		2CE8584D28C954B7002DFFA5 /* CellFoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE8584B28C954B7002DFFA5 /* CellFoodTableViewCell.xib */; };
+		528D72E828D2B1FB001DB4AC /* ElectrodomesticosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D72E628D2B1FB001DB4AC /* ElectrodomesticosTableViewCell.swift */; };
+		528D72E928D2B1FB001DB4AC /* ElectrodomesticosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528D72E728D2B1FB001DB4AC /* ElectrodomesticosTableViewCell.xib */; };
 		528DCA3928CFFEFF00031006 /* MusicCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528DCA3728CFFEFF00031006 /* MusicCellTableViewCell.swift */; };
 		528DCA3A28CFFEFF00031006 /* MusicCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528DCA3828CFFEFF00031006 /* MusicCellTableViewCell.xib */; };
 		528DCA3F28D0075D00031006 /* CountyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528DCA3D28D0075D00031006 /* CountyCellTableViewCell.swift */; };
@@ -44,6 +46,8 @@
 		2CE8583F28C95079002DFFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CE8584A28C954B7002DFFA5 /* CellFoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFoodTableViewCell.swift; sourceTree = "<group>"; };
 		2CE8584B28C954B7002DFFA5 /* CellFoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellFoodTableViewCell.xib; sourceTree = "<group>"; };
+		528D72E628D2B1FB001DB4AC /* ElectrodomesticosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectrodomesticosTableViewCell.swift; sourceTree = "<group>"; };
+		528D72E728D2B1FB001DB4AC /* ElectrodomesticosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ElectrodomesticosTableViewCell.xib; sourceTree = "<group>"; };
 		528DCA3728CFFEFF00031006 /* MusicCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCellTableViewCell.swift; sourceTree = "<group>"; };
 		528DCA3828CFFEFF00031006 /* MusicCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicCellTableViewCell.xib; sourceTree = "<group>"; };
 		528DCA3D28D0075D00031006 /* CountyCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyCellTableViewCell.swift; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				A4BED2B128E53DCD006A0987 /* FoodExtrasCell */,
+				528D72E528D2B1D3001DB4AC /* ElectrodomesticosCell */,
 				528DCA3B28D0071F00031006 /* CountryCell */,
 				528DCA3628CFFEBD00031006 /* MusicCell */,
 				2CE8584928C9547D002DFFA5 /* FoodCell */,
@@ -161,6 +166,15 @@
 				2CE8584B28C954B7002DFFA5 /* CellFoodTableViewCell.xib */,
 			);
 			path = FoodCell;
+			sourceTree = "<group>";
+		};
+		528D72E528D2B1D3001DB4AC /* ElectrodomesticosCell */ = {
+			isa = PBXGroup;
+			children = (
+				528D72E628D2B1FB001DB4AC /* ElectrodomesticosTableViewCell.swift */,
+				528D72E728D2B1FB001DB4AC /* ElectrodomesticosTableViewCell.xib */,
+			);
+			path = ElectrodomesticosCell;
 			sourceTree = "<group>";
 		};
 		528DCA3628CFFEBD00031006 /* MusicCell */ = {
@@ -273,6 +287,7 @@
 				528DCA3A28CFFEFF00031006 /* MusicCellTableViewCell.xib in Resources */,
 				2CE8584D28C954B7002DFFA5 /* CellFoodTableViewCell.xib in Resources */,
 				2CE8583B28C95079002DFFA5 /* Assets.xcassets in Resources */,
+				528D72E928D2B1FB001DB4AC /* ElectrodomesticosTableViewCell.xib in Resources */,
 				2CE8583928C95072002DFFA5 /* Main.storyboard in Resources */,
 				A4ABC3A628E5373B00F87C43 /* FoodDetailViewController.xib in Resources */,
 			);
@@ -286,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C3956A728C9604D000F5266 /* Datos.swift in Sources */,
+				528D72E828D2B1FB001DB4AC /* ElectrodomesticosTableViewCell.swift in Sources */,
 				04A427B028CFFF3100C55DE0 /* TableFoodViewController.swift in Sources */,
 				A4BED2B428E53E03006A0987 /* FoodExtraTableViewCell.swift in Sources */,
 				A4ABC3A528E5373B00F87C43 /* FoodDetailViewController.swift in Sources */,

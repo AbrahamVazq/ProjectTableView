@@ -9,21 +9,41 @@ import UIKit
 
 class FoodDetailViewController: UIViewController {
 
+    @IBOutlet weak var lblTitulo: UILabel!
+    @IBOutlet weak var imgImagenFood: UIImageView!
+    
+    @IBOutlet weak var lblDescripcion: UILabel!
+    
+    @IBOutlet weak var lblPrecio: UILabel!
+    
+    @IBOutlet weak var lblRank: UILabel!
+    
+    @IBOutlet weak var tblExtras: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.tblExtras.delegate = self
+        self.tblExtras.dataSource = self
     }
 
 
-    /*
-    // MARK: - Navigation
+ 
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+}
+extension FoodDetailViewController: UITableViewDelegate{
+    
+}
+extension FoodDetailViewController: UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return UITableViewCell()
+    }
+    
+    
+    
 }
