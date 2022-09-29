@@ -24,6 +24,8 @@
 		528DCA3A28CFFEFF00031006 /* MusicCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528DCA3828CFFEFF00031006 /* MusicCellTableViewCell.xib */; };
 		528DCA3F28D0075D00031006 /* CountyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528DCA3D28D0075D00031006 /* CountyCellTableViewCell.swift */; };
 		528DCA4028D0075D00031006 /* CountyCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528DCA3E28D0075D00031006 /* CountyCellTableViewCell.xib */; };
+		A4ABC3A528E5373B00F87C43 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ABC3A328E5373B00F87C43 /* FoodDetailViewController.swift */; };
+		A4ABC3A628E5373B00F87C43 /* FoodDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4ABC3A428E5373B00F87C43 /* FoodDetailViewController.xib */; };
 		A4B5FC5428D033BC0002B41D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B5FC5228D033BC0002B41D /* DetailViewController.swift */; };
 		A4B5FC5528D033BC0002B41D /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B5FC5328D033BC0002B41D /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
@@ -48,6 +50,8 @@
 		528DCA3828CFFEFF00031006 /* MusicCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicCellTableViewCell.xib; sourceTree = "<group>"; };
 		528DCA3D28D0075D00031006 /* CountyCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyCellTableViewCell.swift; sourceTree = "<group>"; };
 		528DCA3E28D0075D00031006 /* CountyCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountyCellTableViewCell.xib; sourceTree = "<group>"; };
+		A4ABC3A328E5373B00F87C43 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		A4ABC3A428E5373B00F87C43 /* FoodDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodDetailViewController.xib; sourceTree = "<group>"; };
 		A4B5FC5228D033BC0002B41D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A4B5FC5328D033BC0002B41D /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +126,7 @@
 		2CE8584628C9540A002DFFA5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A4ABC3A228E536D300F87C43 /* FoodDetail */,
 				A4B5FC5128D0339A0002B41D /* Detail */,
 				2CE8583528C95072002DFFA5 /* ViewController.swift */,
 				04A427AF28CFFF3100C55DE0 /* TableFoodViewController.swift */,
@@ -183,6 +188,15 @@
 				528DCA3E28D0075D00031006 /* CountyCellTableViewCell.xib */,
 			);
 			path = CountryCell;
+			sourceTree = "<group>";
+		};
+		A4ABC3A228E536D300F87C43 /* FoodDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A4ABC3A328E5373B00F87C43 /* FoodDetailViewController.swift */,
+				A4ABC3A428E5373B00F87C43 /* FoodDetailViewController.xib */,
+			);
+			path = FoodDetail;
 			sourceTree = "<group>";
 		};
 		A4B5FC5128D0339A0002B41D /* Detail */ = {
@@ -260,6 +274,7 @@
 				2CE8583B28C95079002DFFA5 /* Assets.xcassets in Resources */,
 				528D72E928D2B1FB001DB4AC /* ElectrodomesticosTableViewCell.xib in Resources */,
 				2CE8583928C95072002DFFA5 /* Main.storyboard in Resources */,
+				A4ABC3A628E5373B00F87C43 /* FoodDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +288,7 @@
 				2C3956A728C9604D000F5266 /* Datos.swift in Sources */,
 				528D72E828D2B1FB001DB4AC /* ElectrodomesticosTableViewCell.swift in Sources */,
 				04A427B028CFFF3100C55DE0 /* TableFoodViewController.swift in Sources */,
+				A4ABC3A528E5373B00F87C43 /* FoodDetailViewController.swift in Sources */,
 				2CE8583628C95072002DFFA5 /* ViewController.swift in Sources */,
 				2C3956AB28C9608A000F5266 /* Usuario.swift in Sources */,
 				2CE8584C28C954B7002DFFA5 /* CellFoodTableViewCell.swift in Sources */,
