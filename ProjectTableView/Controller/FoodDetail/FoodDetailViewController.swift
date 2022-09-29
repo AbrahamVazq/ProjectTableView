@@ -26,6 +26,7 @@ class FoodDetailViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.tblExtras.delegate = self
         self.tblExtras.dataSource = self
+        self.tblExtras.register(UINib(nibName: "FoodExtraTableViewCell", bundle: .main), forCellReuseIdentifier: "CellFoodExtra")
     }
 
 
@@ -41,7 +42,8 @@ extension FoodDetailViewController: UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CellFoodExtra", for: indexPath)
+        return cell
     }
     
     
